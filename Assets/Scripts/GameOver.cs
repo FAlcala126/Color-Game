@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
@@ -20,7 +21,6 @@ public class GameOver : MonoBehaviour
 
   public void RespawnClick()
   {
-    Debug.Log ("Respawn");
     GameOverMenu.SetActive(false);
     playerR.transform.position = respawn.transform.position;
     player.SetActive(true);
@@ -28,7 +28,7 @@ public class GameOver : MonoBehaviour
 
   public void QuitClick()
   {
-    Debug.Log ("Quit");
+    SceneManager.LoadScene("START");
   }
 
 }

@@ -35,7 +35,6 @@ public class PlayerController : MonoBehaviour
 
     void OnEnable()
     {
-      Debug.Log ("Player Cloned");
       rb.velocity = Vector3.zero;
     }
 }
