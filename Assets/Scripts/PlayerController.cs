@@ -37,4 +37,12 @@ public class PlayerController : MonoBehaviour
     {
       rb.velocity = Vector3.zero;
     }
+
+    private void OnTriggerEnter(Collider other)
+{
+    if (other.gameObject.CompareTag("PickUp"))
+    {
+        other.gameObject.SetActive(false);
+    }
+}
 }
