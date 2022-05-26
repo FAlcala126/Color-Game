@@ -11,8 +11,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private float movementX;
     private float movementY;
+    public GameObject portal;
+    private SceneTransfer portalScript;
 
     // Start is called before the first frame update
+    void Awake() {
+      portalScript = portal.GetComponent<SceneTransfer>();
+    }
+
     void Start()
     {
       rb = GetComponent<Rigidbody>();
@@ -36,6 +42,7 @@ public class PlayerController : MonoBehaviour
     void OnEnable()
     {
       rb.velocity = Vector3.zero;
+      rb.angularVelocity = Vector3.zero;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -43,6 +50,7 @@ public class PlayerController : MonoBehaviour
     if (other.gameObject.CompareTag("PickUp"))
     {
         other.gameObject.SetActive(false);
+        portalScript.collectiblesCounter++;
     }
 }
 }
