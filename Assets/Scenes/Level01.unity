@@ -671,6 +671,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1501267114}
     m_Modifications:
+    - target: {fileID: 1956826423898823239, guid: 1d988747e48d44da1a344ecf9b3e2881,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ad89d42b7556943cd8df8f1067d5afd3, type: 2}
     - target: {fileID: 3648265363114480733, guid: 1d988747e48d44da1a344ecf9b3e2881,
         type: 3}
       propertyPath: m_RootOrder
@@ -1070,7 +1075,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1756e10146810449db008adcc6fc5801, type: 2}
+  - {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1370,6 +1375,11 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4769691809990272622, guid: 0fc4d1e86c636405ab9f336ebdde033d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fc4d1e86c636405ab9f336ebdde033d, type: 3}
 --- !u!1 &1009324627 stripped
@@ -1648,7 +1658,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07bc08d93298c4674aeb6e4bd781acb8, type: 2}
+  - {fileID: 2100000, guid: ad89d42b7556943cd8df8f1067d5afd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1749,7 +1759,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07bc08d93298c4674aeb6e4bd781acb8, type: 2}
+  - {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2029,7 +2039,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1756e10146810449db008adcc6fc5801, type: 2}
+  - {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2647,7 +2657,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1756e10146810449db008adcc6fc5801, type: 2}
+  - {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2793,7 +2803,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07bc08d93298c4674aeb6e4bd781acb8, type: 2}
+  - {fileID: 2100000, guid: ae422cb8209b24b1cbc0bd3f584ff0c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2960,6 +2970,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1501267114}
     m_Modifications:
+    - target: {fileID: 1956826423898823239, guid: 1d988747e48d44da1a344ecf9b3e2881,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6e77f536fa24340a1f527bb5bb5b38, type: 2}
     - target: {fileID: 3648265363114480733, guid: 1d988747e48d44da1a344ecf9b3e2881,
         type: 3}
       propertyPath: m_RootOrder
@@ -3121,7 +3136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4805017702919070, guid: c5febdd93ab44d640b3eb37b768360bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 51.21
       objectReference: {fileID: 0}
     - target: {fileID: 4805017702919070, guid: c5febdd93ab44d640b3eb37b768360bb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3129,7 +3144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4805017702919070, guid: c5febdd93ab44d640b3eb37b768360bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.7
+      value: 71.01
       objectReference: {fileID: 0}
     - target: {fileID: 4805017702919070, guid: c5febdd93ab44d640b3eb37b768360bb, type: 3}
       propertyPath: m_LocalRotation.w

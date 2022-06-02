@@ -2923,10 +2923,40 @@ PrefabInstance:
       propertyPath: looping
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 198416303027038928, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198416303027038928, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198416303027038928, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 198681520901533510, guid: c5febdd93ab44d640b3eb37b768360bb,
         type: 3}
       propertyPath: looping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198681520901533510, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198681520901533510, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198772230390787302, guid: c5febdd93ab44d640b3eb37b768360bb,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198772230390787302, guid: c5febdd93ab44d640b3eb37b768360bb,
         type: 3}
